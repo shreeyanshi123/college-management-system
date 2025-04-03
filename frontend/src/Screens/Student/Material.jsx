@@ -100,7 +100,11 @@ const Material = () => {
                     onClick={() =>
                       item.link &&
                       window.open(
+<<<<<<< HEAD
                         "https://college-management-system-i8ql.onrender.com/media"+ "/" + item.link
+=======
+                        process.env.REACT_APP_MEDIA_LINK + "/" + item.link
+>>>>>>> parent of 0c79406 (for my own purpose)
                       )
                     }
                   >

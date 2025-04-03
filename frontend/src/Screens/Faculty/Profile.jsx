@@ -162,7 +162,11 @@ const Profile = () => {
             )}
           </div>
           <img
+<<<<<<< HEAD
             src={ "https://college-management-system-i8ql.onrender.com/media"+ "/" + data[0].profile}
+=======
+            src={process.env.REACT_APP_MEDIA_LINK + "/" + data[0].profile}
+>>>>>>> parent of 0c79406 (for my own purpose)
             alt="faculty profile"
             className="h-[200px] w-[200px] object-cover rounded-lg shadow-md"
           />

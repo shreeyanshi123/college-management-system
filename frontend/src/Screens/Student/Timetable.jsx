@@ -43,7 +43,11 @@ const Timetable = () => {
           <p
             className="flex justify-center items-center text-lg font-medium cursor-pointer hover:text-red-500 hover:scale-110 ease-linear transition-all duration-200 hover:duration-200 hover:ease-linear hover:transition-all"
             onClick={() =>
+<<<<<<< HEAD
               window.open( "https://college-management-system-i8ql.onrender.com/media" + "/" + timetable)
+=======
+              window.open(process.env.REACT_APP_MEDIA_LINK + "/" + timetable)
+>>>>>>> parent of 0c79406 (for my own purpose)
             }
           >
             Download
@@ -56,7 +60,11 @@ const Timetable = () => {
       {timetable && (
         <img
           className="mt-8 rounded-lg shadow-md w-[70%] mx-auto"
+<<<<<<< HEAD
           src={ "https://college-management-system-i8ql.onrender.com/media" + "/" + timetable}
+=======
+          src={process.env.REACT_APP_MEDIA_LINK + "/" + timetable}
+>>>>>>> parent of 0c79406 (for my own purpose)
           alt="timetable"
         />
       )}

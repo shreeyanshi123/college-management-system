@@ -11,8 +11,6 @@ const Login = () => {
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => {
     if (data.login !== "" && data.password !== "") {
-      console.log(data.login);
-      console.log(data.password);
       const headers = {
         "Content-Type": "application/json",
       };
@@ -21,10 +19,6 @@ const Login = () => {
           headers: headers,
         })
         .then((response) => {
-          console.log("Full API Response:", response);
-          console.log("Response Data:", response.data);
-          console.log("Login ID:", response.data?.loginid); // Debug
-      
           navigate(`/${selected.toLowerCase()}`, {
             state: { type: selected, loginid: response.data.loginid },
           });

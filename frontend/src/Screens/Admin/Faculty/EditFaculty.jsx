@@ -287,7 +287,11 @@ const EditFaculty = () => {
           {previewImage && (
             <div className="w-full flex justify-center items-center">
               <img
+<<<<<<< HEAD
                 src={ "https://college-management-system-i8ql.onrender.com/media" + "/" + previewImage}
+=======
+                src={process.env.REACT_APP_MEDIA_LINK + "/" + previewImage}
+>>>>>>> parent of 0c79406 (for my own purpose)
                 alt="faculty"
                 className="h-36"
               />
@@ -296,7 +300,11 @@ const EditFaculty = () => {
           {!previewImage && data.profile && (
             <div className="w-full flex justify-center items-center">
               <img
+<<<<<<< HEAD
                 src={ "https://college-management-system-i8ql.onrender.com/media" + "/" + data.profile}
+=======
+                src={process.env.REACT_APP_MEDIA_LINK + "/" + data.profile}
+>>>>>>> parent of 0c79406 (for my own purpose)
                 alt="faculty"
                 className="h-36"
               />
