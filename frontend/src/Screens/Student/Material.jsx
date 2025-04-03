@@ -100,7 +100,7 @@ const Material = () => {
                     onClick={() =>
                       item.link &&
                       window.open(
-                        process.env.REACT_APP_MEDIA_LINK + "/" + item.link
+                        "http://localhost:5001/media"+ "/" + item.link
                       )
                     }
                   >

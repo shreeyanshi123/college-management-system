@@ -268,7 +268,7 @@ const EditAdmin = () => {
           {previewImage && (
             <div className="w-full flex justify-center items-center">
               <img
-                src={process.env.REACT_APP_MEDIA_LINK + "/" + previewImage}
+                src={ "http://localhost:5001/media"+ "/" + previewImage}
                 alt="admin"
                 className="h-36"
               />
@@ -277,7 +277,7 @@ const EditAdmin = () => {
           {!previewImage && data.profile && (
             <div className="w-full flex justify-center items-center">
               <img
-                src={process.env.REACT_APP_MEDIA_LINK + "/" + data.profile}
+                src={ "http://localhost:5001/media" + "/" + data.profile}
                 alt="admin"
                 className="h-36"
               />

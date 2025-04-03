@@ -163,7 +163,7 @@ const Profile = () => {
             )}
           </div>
           <img
-            src={process.env.REACT_APP_MEDIA_LINK + "/" + data.profile}
+            src={ "http://localhost:5001/media"+ "/" + data.profile}
             alt="student profile"
             className="h-[240px] w-[240px] object-cover rounded-lg shadow-md"
           />
