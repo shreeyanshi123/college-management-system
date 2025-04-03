@@ -6,16 +6,13 @@ connectToMongo();
 const port = 5001
 var cors = require("cors");
 const attendanceRouter = require("./routes/Other Api/attendance.route");
-
-
 app.use(
   cors({
-    origin: "https://tubular-genie-083698.netlify.app", // ✅ Correct
-    methods: "GET, POST, PUT, DELETE",
-    credentials: true,
+    origin:" https://tubular-genie-083698.netlify.app/",
+    methods: "GET,POST,PUT,DELETE",
+    credentials: true
   })
 );
-
 
 app.use(express.json()); //to convert request data to json
 
