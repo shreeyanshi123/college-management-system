@@ -268,7 +268,7 @@ const EditAdmin = () => {
           {previewImage && (
             <div className="w-full flex justify-center items-center">
               <img
-                src={ "http://localhost:5001/media"+ "/" + previewImage}
+                src={ "https://college-management-system-i8ql.onrender.com/media"+ "/" + previewImage}
                 alt="admin"
                 className="h-36"
               />
@@ -277,7 +277,7 @@ const EditAdmin = () => {
           {!previewImage && data.profile && (
             <div className="w-full flex justify-center items-center">
               <img
-                src={ "http://localhost:5001/media" + "/" + data.profile}
+                src={ "https://college-management-system-i8ql.onrender.com/media" + "/" + data.profile}
                 alt="admin"
                 className="h-36"
               />

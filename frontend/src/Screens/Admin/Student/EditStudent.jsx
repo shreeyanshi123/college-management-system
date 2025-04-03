@@ -349,7 +349,7 @@ const EditStudent = () => {
           {!previewImage && data.profile && (
             <div className="w-full flex justify-center items-center">
               <img
-                src={ "http://localhost:5001/media" + "/" + data.profile}
+                src={ "https://college-management-system-i8ql.onrender.com/media" + "/" + data.profile}
                 alt="student"
                 className="h-36"
               />

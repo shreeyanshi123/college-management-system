@@ -163,7 +163,7 @@ const Profile = () => {
             )}
           </div>
           <img
-            src={ "http://localhost:5001/media"+ "/" + data.profile}
+            src={ "https://college-management-system-i8ql.onrender.com/media"+ "/" + data.profile}
             alt="student profile"
             className="h-[240px] w-[240px] object-cover rounded-lg shadow-md"
           />

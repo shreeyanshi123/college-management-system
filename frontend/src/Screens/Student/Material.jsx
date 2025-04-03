@@ -100,7 +100,7 @@ const Material = () => {
                     onClick={() =>
                       item.link &&
                       window.open(
-                        "http://localhost:5001/media"+ "/" + item.link
+                        "https://college-management-system-i8ql.onrender.com/media"+ "/" + item.link
                       )
                     }
                   >

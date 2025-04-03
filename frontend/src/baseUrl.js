@@ -1,3 +1,3 @@
 export const baseApiURL = () => {
-  return "http://localhost:5001/api";
+  return "https://college-management-system-i8ql.onrender.com/api"
 };
