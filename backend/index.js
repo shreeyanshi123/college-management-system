@@ -8,7 +8,9 @@ var cors = require("cors");
 const attendanceRouter = require("./routes/Other Api/attendance.route");
 app.use(
   cors({
-    origin: process.env.FRONTEND_API_LINK,
+    origin:" https://tubular-genie-083698.netlify.app/",
+    methods: "GET,POST,PUT,DELETE",
+    credentials: true
   })
 );
 
